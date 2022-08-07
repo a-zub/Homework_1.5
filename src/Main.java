@@ -136,8 +136,6 @@ public class Main {
             if (arrayInt[i] % 2 != 0){
                 arrayInt[i] = arrayInt[i] + 1;
             }
-        }
-        for(int i = 0; i < arrayInt.length; i++){
             System.out.print(arrayInt[i]);
             if (i != arrayInt.length - 1){
                 System.out.print(", ");
